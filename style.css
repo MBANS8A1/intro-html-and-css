@@ -36,3 +36,33 @@ ul, ol {
 li {
     padding: 5px 20px 10px 30px
 }
+
+.top-left {
+    grid-area: a;
+}
+
+.top-right {
+    grid-area: b;
+}
+
+.bottom-left {
+    grid-area: c;
+}
+
+.bottom-right {
+    grid-area: d;
+}
+
+.container {
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: 24% 75%;
+    column-gap: 1%;
+    grid-template-rows: 20% 75%;
+    row-gap: 5%;
+    place-items: stretch start;
+    place-content: stretch space-around;
+    grid-template-areas: 
+    "a b"
+    "c d";
+}
