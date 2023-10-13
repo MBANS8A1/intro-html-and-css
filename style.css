@@ -1,0 +1,38 @@
+* {
+    border-style: dashed;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px 0px 50px 25px;
+}
+
+body {
+    background-color: coral;
+}
+
+img {
+    width: 200px;
+    height: 100%;
+    border-style: solid;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+a {
+    font-size: 40px;
+}
+
+ul, ol {
+    color: white;
+}
+
+li {
+    padding: 5px 20px 10px 30px
+}
